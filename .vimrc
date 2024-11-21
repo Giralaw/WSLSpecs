@@ -46,7 +46,7 @@ let g:vimtex_matchparen_enabled = 0
 set conceallevel=1
 let g:tex_conceal='abdmg'
 
-setlocal spell
+setlocal nospell
 set spelllang=en_us
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
